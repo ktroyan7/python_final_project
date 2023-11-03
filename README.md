@@ -5,7 +5,7 @@
 #### Date: May 2023
 #### Current Location: Playa del Carmen, Mexico
 #### TITLE: Image Display Program (for motivation, workplace stress, anxiety, etc.)
-#### Video Demo: URL
+#### Video Demo: https://youtu.be/0uUtXiJWrtk
 
 ### Instructions:
 1. Navigate to the folder containing the python script
