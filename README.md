@@ -5,19 +5,29 @@ Name: Kevin Troyan<br>
 Date: May 2023<br>
 Program Title: Image Display Program (for motivation, workplace stress, anxiety, etc.)<br>
 
+## Table of Contents:
+
+[Video Demo](#VideoDemo)
+[Function Descriptions](#FunctionDescriptions)
+
 ## Video Demo
+
+https://github.com/ktroyan7/python_final_project/assets/108959100/a16e5759-dde3-4495-9be3-a1e8d2dd67e9
 
 Please click the link for a video Demo: https://youtu.be/0uUtXiJWrtk
 
 ## Instructions:
+
 1. Navigate to the folder containing the python script
-2. Run the script in the command line (python3 project.py) and enter the 4 command line arguments
-3. argv1 is the path to the folder of images you want to use
-4. argv2 is how long the program will run in seconds
-5. argv3 is how long the image will flash in ms (can start with 2000ms and adjust down by 500 increments if you want it to flash quicker)
-6. argv4 is the time period to wait between showing the photos in seconds.
-7. e.g. command line input = python3 project.py /Users/kevintroyan/downloads/project 3600 2000 30
-This will script will show photos from the project folder in my downloads folder and run for 3600 seconds (1 hour) and flash and image for 2000ms (2 seconds) and flash a photo every 30 seconds
+2. Enter the script in the command line (python3 project.py) and enter the 4 command line arguments, then run.
+    - argv1 is the path to the folder of images you want to use
+    - argv2 is how long the program will run in seconds
+    - argv3 is how long the image will flash in ms (can start with 2000ms and adjust down by 500 increments if you want it to flash quicker)
+    - argv4 is the time period to wait between showing the photos in seconds.
+
+e.g. command line input = python3 project.py /Users/kevintroyan/downloads/project 3600 2000 30
+
+This script will show photos from the project folder in my downloads folder and run for 3600 seconds (1 hour), flash an image for 2000ms (2 seconds), and flash a photo every 30 seconds
 
 ## Function Descriptions: 
 
