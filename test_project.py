@@ -28,7 +28,6 @@ def test_get_image_files():
         os.remove(file_path)
     os.rmdir(folder_path)
 
-
 def test_choose_random_image():
     # Test with a non-empty list of image files
     image_files = ['test1.jpg', 'test2.png', 'test3.jpeg']
