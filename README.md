@@ -1,9 +1,10 @@
 # Final project for CS50P: python_final_project
 
 ## Information
-Name: Kevin Troyan
-Date: May 2023
-Program Title: Image Display Program (for motivation, workplace stress, anxiety, etc.)
+Name: Kevin Troyan<br>
+Date: May 2023<br>
+Program Title: Image Display Program (for motivation, workplace stress, anxiety, etc.)<br>
+
 ## Video Demo
 
 Please click the link for a video Demo: https://youtu.be/0uUtXiJWrtk
