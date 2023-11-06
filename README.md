@@ -40,13 +40,17 @@ This Python program displays a series of images from a folder on the screen for 
 **Files**
 The program consists of a single Python file, project.py. This file contains the following functions:
 
-get_image_files(folder_path): This function takes a folder path as input and returns a list of all image files (i.e., files ending with ".jpg", ".png", or ".jpeg") in the folder.
+get_image_files(folder_path): 
+- This function takes a folder path as input and returns a list of all image files (i.e., files ending with ".jpg", ".png", or ".jpeg") in the folder.
 
-choose_random_image(image_files): This function takes a list of image files as input and returns a random image file path. If there are no image files in the list, the function returns None.
+choose_random_image(image_files): 
+- This function takes a list of image files as input and returns a random image file path. If there are no image files in the list, the function returns None.
 
-display_image(image_path, duration_ms): This function takes an image file path and a duration in milliseconds as input and displays the image file using the default image viewer for the system. It then waits for the specified duration and closes the image file.
+display_image(image_path, duration_ms): 
+- This function takes an image file path and a duration in milliseconds as input and displays the image file using the default image viewer for the system. It then waits for the specified duration and closes the image file.
 
-main(): This function is the main entry point for the program. It takes four command-line arguments: 
+main(): 
+- This function is the main entry point for the program. It takes four command-line arguments: 
 1 - the path to the folder containing the images
 2 - the duration of the program in seconds
 3 - the duration to display each image in milliseconds
