@@ -22,15 +22,16 @@ Please click the link for a video Demo: https://youtu.be/0uUtXiJWrtk
 ## Instructions:
 
 1. Navigate to the folder containing the python script
-2. Enter the script in the command line (python3 project.py) and enter the 4 command line arguments, then run.
+2. Enter the script in the command line (python3 project.py) and enter the 4 command line arguments.
     - argv1 is the path to the folder of images you want to use
     - argv2 is how long the program will run in seconds
     - argv3 is how long the image will flash in ms (can start with 2000ms and adjust down by 500 increments if you want it to flash quicker)
     - argv4 is the time period to wait between showing the photos in seconds.
+3. Run program.
+4. Run to completion or enter control+c to stop.
 
-e.g. command line input = python3 project.py /Users/kevintroyan/downloads/project 3600 2000 30
-
-This script will show photos from the project folder in my downloads folder and run for 3600 seconds (1 hour), flash an image for 2000ms (2 seconds), and flash a photo every 30 seconds
+Example command line input = python3 project.py /Users/kevintroyan/downloads/project 3600 2000 30
+- This script will show photos from the project folder in my downloads folder and run for 3600 seconds (1 hour), flash an image for 2000ms (2 seconds), and flash a photo every 30 seconds
 
 ## Function Descriptions: 
 
