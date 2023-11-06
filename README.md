@@ -7,8 +7,11 @@ Program Title: Image Display Program (for motivation, workplace stress, anxiety,
 
 ## Table of Contents:
 
-[Video Demo](#VideoDemo)
-[Function Descriptions](#FunctionDescriptions)
+- [Video Demo](#Video-Demo)
+- [Instructions](#instructions)
+- [Function Descriptions](#Function-Descriptions)
+- [Design Choices](#design-choices)
+- [Future Plans](#future-plans)
 
 ## Video Demo
 
@@ -33,7 +36,7 @@ This script will show photos from the project folder in my downloads folder and 
 
 This Python program displays a series of images from a folder on the screen for a specified duration and with a specified waiting time between each image. The program selects a random image file from the folder, displays it for the specified duration, and then waits for the specified time before selecting another image to display.
 
-Files
+**Files**
 The program consists of a single Python file, project.py. This file contains the following functions:
 
 get_image_files(folder_path): This function takes a folder path as input and returns a list of all image files (i.e., files ending with ".jpg", ".png", or ".jpeg") in the folder.
@@ -58,3 +61,11 @@ Another design choice was to include a check for whether there are any image fil
 Finally, the program uses the time module to handle the timing of the program. Specifically, the program uses the time.sleep() function to wait for the specified durations between each iteration of the loop. This was done to simplify the program and avoid using more complex timing mechanisms.
 
 In conclusion, this Python program provides a simple way to display a series of images from a folder on the screen for a specified duration and with a specified waiting time between each image. The program is designed to be easy to use and cross-platform, and includes checks to prevent errors if there are no images in the folder.
+
+## Future Plans
+
+This project could be expanded upon with the following improvements:
+
+1. Make sure the photos are centered on the screen. As of right now, they open to where the default viewer will open.
+2. You can build this into an app where you enter the inputs in Text Fields and run the program. You can then use saved settings and different folders of images. e.g. one for motivation, one for Spanish flashcards.
+3. For the subliminal market, you can make this into an app where the images are flashed so fast you can not see them. So you can have the app running and flashing images while you are using your phone.
